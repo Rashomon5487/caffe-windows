@@ -483,6 +483,9 @@
     <ClCompile Include="..\..\src\caffe\layers\depthwise_conv_layer.cpp">
       <Filter>src\layers</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\caffe\layers\combined_margin_layer.cpp">
+      <Filter>src\layers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\caffe\proto\caffe.pb.h">
@@ -875,6 +878,9 @@
     <ClInclude Include="..\..\include\caffe\layers\depthwise_conv_layer.hpp">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\include\caffe\layers\combined_margin_layer.hpp">
+      <Filter>include\layers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CudaCompile Include="..\..\src\caffe\layers\gram_layer.cu">
@@ -1001,7 +1007,10 @@
       <Filter>cu\layers</Filter>
     </CudaCompile>
     <CudaCompile Include="..\..\src\caffe\layers\depthwise_conv_layer.cu">
-      <Filter>cu</Filter>
+      <Filter>cu\layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\caffe\layers\combined_margin_layer.cu">
+      <Filter>cu\layers</Filter>
     </CudaCompile>
   </ItemGroup>
 </Project>
